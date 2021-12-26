@@ -5,6 +5,14 @@ alias sshconfig='vim ~/.ssh/config'
 
 ## SSH ##
 
+## PYENV ##
+alias deleteenv='pyenv virtualenv-delete '
+alias deletenv='deleteenv'
+alias createenv='pyenv virtualenv '
+alias createnv='createenv'
+alias activateenv='pyenv activate'
+alias activatenv='activateenv'
+
 
 ## VIM ##
 alias newalias='vim ~/.zshrc'
